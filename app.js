@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const { getOffersData } = require('./firebaseModule.js');
 const {deleteElement} = require("./firebaseModule");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.use(bodyParser.json());
 
