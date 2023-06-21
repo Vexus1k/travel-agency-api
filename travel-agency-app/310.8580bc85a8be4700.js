@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktravel_agency_app=self.webpackChunktravel_agency_app||[]).push([[310],{8310:(c,a,u)=>{u.r(a),u.d(a,{AboutUsModule:()=>e});var n=u(4666),t=u(294),l=u(2560);let e=(()=>{class o{}return o.\u0275fac=function(_){return new(_||o)},o.\u0275mod=l.oAB({type:o}),o.\u0275inj=l.cJS({imports:[n.ez,t.I]}),o})()}}]);
+//# sourceMappingURL=310.8580bc85a8be4700.js.map

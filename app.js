@@ -17,7 +17,7 @@ app.use( function (req, res, next) {
 
     next();
 }, bodyParser.json());
-app.use(express.static('public'));
+app.use(express.static('travel-agency-app'));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
