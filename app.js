@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 app.use(bodyParser.json());
 
 app.use( function (req, res, next) {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+    res.setHeader('Access-Control-Allow-Origin', 'https://travel-agency-i4ao.onrender.com');
     res.setHeader('Access-Control-Allow-Methods', '*');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,Content-Type');
     res.setHeader('Access-Control-Allow-Credentials', true);
